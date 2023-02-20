@@ -149,8 +149,8 @@ public class TestReqres {
                 .then().log().all()
                 .spec(responseSpec(200))
                 .extract().as(UserResponse.class);
-        String regexForResponseTime = "(.{8})$";
-        String regexForLocalTime = "(.{14})$";
+        String regexForResponseTime = "(.{14})$";
+        String regexForLocalTime = "(.{20})$";
         String currentLocalTime = Clock.systemUTC().instant().toString().replaceAll(regexForLocalTime, "");
         String responseTime = userTimeResponse.getUpdatedAt().replaceAll(regexForResponseTime,"");
         System.out.println(currentLocalTime);
