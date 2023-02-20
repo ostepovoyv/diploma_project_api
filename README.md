@@ -35,7 +35,7 @@
 - Проверка email при помощи groovy
 - Сравнение даты в ответе и текущей даты
 
-## :computer: Запуск тестов из терминала
+## :computer: Запуск тестов 
 
 ### Локальный запуск тестов
 
@@ -43,15 +43,13 @@
 gradle clean test
 ```
 
-## <img width="4%" title="Jenkins" src="media/logo/Jenkins.svg"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/)
-Для запуска сборки необходимо перейти в раздел <code><strong>*Собрать с параметрами*</strong></code> и нажать кнопку <code><strong>*Собрать*</strong></code>.
+## <img width="4%" title="Jenkins" src="media/logo/Jenkins.svg"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/diploma_project_api/)
+Сборка проекта.
 
 <p align="center">
   <img src="media/screen/start_jenkins.png" alt="Jenkins" width="800">
 </p>
 
-После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
-значок *Allure Report* и *Allure TestOps* кликнув по которому, откроется страница с сформированным html-отчетом и тестовой документацией.
 
 ## <img width="4%" title="Allure Report" src="media/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/)
 
