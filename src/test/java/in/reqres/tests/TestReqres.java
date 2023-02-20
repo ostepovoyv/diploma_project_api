@@ -150,7 +150,7 @@ public class TestReqres {
                 .spec(responseSpec(200))
                 .extract().as(UserResponse.class);
         String regexForResponseTime = "(.{14})$";
-        String regexForLocalTime = "(.{20})$";
+        String regexForLocalTime = "(.{17})$";
         String currentLocalTime = Clock.systemUTC().instant().toString().replaceAll(regexForLocalTime, "");
         String responseTime = userTimeResponse.getUpdatedAt().replaceAll(regexForResponseTime,"");
         System.out.println(currentLocalTime);
