@@ -26,13 +26,14 @@
 
 ## :heavy_check_mark: Тест кейсы
 
-- Получение списка пользователей
-- Проверка наличия пользователя в базе
-- Создание нового пользователя
-- Обновление данных пользователя
 - Успешная регистрация
-- Проверка id, email пользователя
-- Проверка email пользователя при помощи Groovy
+- Регистрация без пароля
+- Проверка ответа на наличие сортировки по годам
+- Обновление пользователя
+- Проверка статус кода после удаления
+- Проверка email пользователей на содержание reqres.in и проверка наличия avatar
+- Проверка email при помощи groovy
+- Сравнение даты в ответе и текущей даты
 
 ## :computer: Запуск тестов из терминала
 
@@ -42,7 +43,7 @@
 gradle clean test
 ```
 
-## <img width="4%" title="Jenkins" src="media/logo/Jenkins.svg"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/015_aziyatdinov_final_api/)
+## <img width="4%" title="Jenkins" src="media/logo/Jenkins.svg"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/)
 Для запуска сборки необходимо перейти в раздел <code><strong>*Собрать с параметрами*</strong></code> и нажать кнопку <code><strong>*Собрать*</strong></code>.
 
 <p align="center">
@@ -52,7 +53,7 @@ gradle clean test
 После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
 значок *Allure Report* и *Allure TestOps* кликнув по которому, откроется страница с сформированным html-отчетом и тестовой документацией.
 
-## <img width="4%" title="Allure Report" src="media/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/015_aziyatdinov_final_api/4/allure/)
+## <img width="4%" title="Allure Report" src="media/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/)
 
 <p align="center">
   <img src="media/screen/jenkins_overview.png" alt="allure-report" width="900">
@@ -62,7 +63,7 @@ gradle clean test
   <img src="media/screen/jenkins_behaviors.png" alt="allure-report_1" width="900">
 </p>
 
-## <img width="4%" title="Allure TestOPS" src="media/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18313)
+## <img width="4%" title="Allure TestOPS" src="media/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/)
 
 ### Основной дашборд
 
