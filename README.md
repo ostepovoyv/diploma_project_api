@@ -37,11 +37,14 @@
 
 ## :computer: Запуск тестов 
 
-### Локальный запуск тестов
 
 ```bash
 gradle clean test
 ```
+> Для запуска тестов в несколько потоков необходимо добавить параметр <code>-Dthreads={Количество потоков}</code>
+>
+> Например: <code>gradle clean test -Dthreads=2</code>
+
 
 ## <img width="4%" title="Jenkins" src="media/logo/Jenkins.svg"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/diploma_project_api/)
 Сборка проекта.
