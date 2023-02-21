@@ -18,7 +18,7 @@ import static in.reqres.spec.Specifications.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasItem;
 
-@Epic("API Reqres")
+@Epic("API Request")
 @Owner("ostepovoyv")
 public class TestReqres {
 
