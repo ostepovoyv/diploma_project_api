@@ -1,5 +1,9 @@
 # Дипломный проект по тестированию API для [reqres.in](https://reqres.in/)
 
+<p align="center">
+<img width="25%" title="reqres.in" name="reqres.in" src="media/logo/logo_reqres.png">
+</p>
+
 ## :open_book: Содержание
 
 - [Технологии и инструменты](#gear-технологии-и-инструменты)
@@ -84,3 +88,6 @@ gradle clean test
 
 <p align="center">
 <img title="Telegram Notifications" src="media/screen/telegram_notify.png">
+</p>
+
+[Вернуться к началу ⬆](#reqres.in)
