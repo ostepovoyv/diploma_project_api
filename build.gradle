@@ -30,7 +30,6 @@ compileTestJava.options.encoding = "UTF-8"
 dependencies {
     testImplementation (
             'org.junit.jupiter:junit-jupiter-api:5.9.0',
-            'com.codeborne:selenide:6.10.1',
             'io.qameta.allure:allure-selenide:2.20.1',
             'org.junit.jupiter:junit-jupiter:5.9.0',
             'org.slf4j:slf4j-simple:1.7.32',
