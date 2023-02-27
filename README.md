@@ -1,7 +1,7 @@
 # Дипломный проект по тестированию API для [reqres.in](https://reqres.in/)
 
 <p align="center">
-<img width="25%" title="reqres.in" name="reqres.in" src="media/logo/logo_reqres.png">
+<img width="50%" title="reqres.in" name="reqres.in" src="media/logo/logo_reqres.png">
 </p>
 
 ## :open_book: Содержание
