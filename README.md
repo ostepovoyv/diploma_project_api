@@ -82,6 +82,11 @@ gradle clean test
   <img src="media/screen/Allure_TO2.png" alt="Allure_TO2" width="900">
 </p>
 
+### Test plans
+<p align="center">
+  <img src="media/screen/Allure_TO3.png" alt="Allure_TO3" width="900">
+</p>
+
 
 ## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прохождении тестов.
